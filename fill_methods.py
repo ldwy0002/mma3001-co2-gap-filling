@@ -20,9 +20,9 @@ def make_inputs(wide, sensorid, index): # X is the machine learnign convention. 
     X["weekday"] = index.dayofweek
     return X
 
-def fill_forest(gappy, X, seed = 0):
+def fill_forest(gappy, X, seed = 0, n_trees = 100):
     known = gappy.notna() # true for real readings, gaps are NaN so the model never sees them, avoiding leakage
-    model = RandomForestRegressor(n_estimators=100, random_state=seed) # 100 trees, fixed seed for repeatable results
+    model = RandomForestRegressor(n_estimators=n_trees, random_state=seed) # 100 trees, fixed seed for repeatable results
     model.fit(X[known],gappy[known])
     filled = gappy.copy()
     filled[~known] = model.predict(X[~known])
