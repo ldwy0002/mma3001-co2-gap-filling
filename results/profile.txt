@@ -1,0 +1,18 @@
+         317101 function calls (313877 primitive calls) in 6.848 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1151 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.852    6.852 C:\Users\levid\Documents\mma3001assignment\code\fill_methods.py:23(fill_forest)
+        1    0.000    0.000    6.699    6.699 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\base.py:1381(wrapper)
+        1    0.001    0.001    6.698    6.698 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py:302(fit)
+        2    0.000    0.000    6.225    3.112 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\parallel.py:54(__call__)
+        2    0.000    0.000    6.225    3.112 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py:1902(__call__)
+      204    0.004    0.000    6.224    0.031 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py:1819(_get_sequential_output)
+      200    0.026    0.000    6.201    0.031 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\parallel.py:140(__call__)
+      100    0.020    0.000    6.029    0.060 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py:132(_parallel_build_trees)
+      100    5.611    0.056    5.869    0.059 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\tree\_classes.py:226(_fit)
+      103    0.007    0.000    0.387    0.004 C:\Users\levid\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:733(check_array)
+
+
