@@ -89,7 +89,7 @@ On Windows, `make_docs.bat` rebuilds the docs and the test report in one step.
 
 ## AI use
 
-I used Claude (Anthropic) to help plan the project, draft and explain the code and tests, and debug. Details, including errors the AI made and how I checked its output, are in Section 7 of the written report.
+I used Claude (Anthropic) to help plan the project, debug and assist with python features and writing unit tests. As well as assisting with GitHub set up and repository files. 
 
 ## Licence
 
