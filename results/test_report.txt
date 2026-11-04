@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.1, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\levid\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\levid\Documents\mma3001assignment\code
+plugins: anyio-4.2.0
+collecting ... collected 19 items
+
+tests/test_experiment.py::test_longest_clean_stretch_picks_the_longest_block PASSED [  5%]
+tests/test_experiment.py::test_rmse_only_scores_deleted_points PASSED    [ 10%]
+tests/test_experiment.py::test_run_one_scores_all_three_methods PASSED   [ 15%]
+tests/test_fill_methods.py::test_linear_is_exact_on_a_straight_line PASSED [ 21%]
+tests/test_fill_methods.py::test_linear_uses_real_time_spacing PASSED    [ 26%]
+tests/test_fill_methods.py::test_spline_is_exact_on_a_cubic PASSED       [ 31%]
+tests/test_fill_methods.py::test_known_values_never_change PASSED        [ 36%]
+tests/test_fill_methods.py::test_forest_learns_from_inputs_and_repeats_with_seed PASSED [ 42%]
+tests/test_fill_methods.py::test_make_inputs_columns_and_no_missing PASSED [ 47%]
+tests/test_gaps.py::test_select_series_drops_missing PASSED              [ 52%]
+tests/test_gaps.py::test_right_number_and_length_of_gaps PASSED          [ 57%]
+tests/test_gaps.py::test_gaps_never_touch_the_ends PASSED                [ 63%]
+tests/test_gaps.py::test_gappy_is_nan_only_inside_gaps PASSED            [ 68%]
+tests/test_gaps.py::test_same_seed_gives_same_gaps PASSED                [ 73%]
+tests/test_gaps.py::test_impossible_request_raises PASSED                [ 78%]
+tests/test_load_env.py::test_sensor_ids_stay_exact PASSED                [ 84%]
+tests/test_load_env.py::test_skips_bad_rows_and_flags_errors PASSED      [ 89%]
+tests/test_load_env.py::test_dedup_and_pivot PASSED                      [ 94%]
+tests/test_load_env.py::test_audit_reports_interval PASSED               [100%]
+
+============================= 19 passed in 9.46s ==============================
