@@ -29,4 +29,4 @@ tests/test_optimise.py::test_tree_sweep_has_every_tree_count_and_seed PASSED [ 9
 tests/test_optimise.py::test_profile_mentions_fit PASSED                 [ 95%]
 tests/test_optimise.py::test_forest_estimate_far_above_linear PASSED     [100%]
 
-============================= 23 passed in 3.69s ==============================
+============================= 23 passed in 3.57s ==============================
